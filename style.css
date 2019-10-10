@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+   width: 100%; 
+    font-size: 1.5em;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#container_image{
+    padding-top: 3%;
+}
+
+#page{
+    padding: 5% 3%;
+}
+
+#titre{
+    text-align: center;
+    
+    padding-bottom: 5%;
+}
+
+#titre_1370, #titre_970, #titre_768{
+    display: none;
+    text-align: center;
+}
+
+#titre_320{
+     text-align: center;
+     
+}
+
+#container{
+    padding-top: 3%;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    #titre_768{
+        display: block;
+        
+    }
+    
+    #titre_320{
+        display: none;
+    }
+    
+    #image_mer{
+        display: inline-block;
+        width: 48%;
+        
+    }
+
+    #image_lac{
+        display: inline-block;
+        width: 48%;
+        padding-left: 2%;
+        
+    }
+    
+    #image_montagne{
+        display: inline-block;
+        width: 48%; 
+        padding-top:1%;
+    }
+    
+    #image_foret{
+        display: inline-block;
+        width: 48%;
+        padding-top:1%;
+        padding-left: 2%;
+    }
+    
+
+@media screen and (min-width: 970px) {
+    
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }
+    
+    #titre_768{
+        display: none;
+    }
+    
+    #titre_970{
+        display: block;
+    }
+
+@media screen and (min-width: 1370px) {
+    
+    .container {
+        width: 1370px;
+        margin: 0 auto;
+    }
+    
+    #titre_970{
+        display: none;
+    }
+    
+    #titre_1370{
+        display: block;
+        text-align: center;
+    }
+    
+     #image_mer{
+        display: inline-block;
+        width: 24%;  
+    }
+
+    #image_lac{
+        display: inline-block;
+        width: 24%;
+        padding-left: 0%;
+    }
+    
+    #image_montagne{
+        display: inline-block;
+        width: 24%; 
+        padding-top:0%;
+    }
+    
+    #image_foret{   
+        display: inline-block;
+        width: 24%;   
+        padding-top:0%;
+        padding-left: 0%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
